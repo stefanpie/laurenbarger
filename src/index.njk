@@ -10,17 +10,38 @@
     <link rel="icon" href="/favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="/css/main.css">
 </head>
-<body>
-    <header>
-        <nav>
-            <a href="/">Home</a>
-            <a href="/#about">About</a>
-            <a href="/#contact">Contact</a>
-        </nav>
-    </header>
+<body>    
     <main>
-        <img src="/img/lauren.png" alt="{{ meta.site_name }}">
         <h1>{{ meta.site_name }}</h1>
+        <div id="bio">
+            <img src="/img/lauren_comp.png" alt="{{ meta.site_name }}" id="bio-img">
+            <p id="bio-text">
+                Current D2 dental student at the Dental College of Georgia and Biomedical Engineer from Georgia Tech.
+                <br><br>
+                Interested in general dentistry, cosmetic dentistry, and forensic odontology/dentistry.
+                <br><br>
+                Member of the American Student Dental Association.
+            </p>
+        </div>
+        <div id="contact">
+            <h2>Contact</h2>
+            <p>LinkedIn: <a href="https://www.linkedin.com/in/lauren-barger/">https://www.linkedin.com/in/lauren-barger/</a></p>
+        </div>
+        <div id="projects">
+            <h2>Projects</h2>
+            <div class="card-list">
+                <div class="card">
+                    <a href="/">
+                        Senior Design Project - Stool Stomper: A Device that Enables Accelerated and Standardized Stool Sample Preparation to Improve Microscopic Analysis in the Kato-Katz Technique
+                    </a>
+                </div>
+                <div class="card">
+                    <a href="/">
+                        Size-Adjustable Bite Block
+                    </a>
+                </div>
+            </div>
+        </div>
     </main>
 </body>
 </html>
